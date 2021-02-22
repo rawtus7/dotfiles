@@ -19,6 +19,7 @@ fi
 echo "Configuring..."
 defaults write -g AppleLanguages '( "en-JP", "ja-JP")'
 defaults write -g AppleShowAllExtensions -bool true
+defaults write -g AppleWindowTabbingMode -string "manual"
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
@@ -63,7 +64,7 @@ defaults write com.apple.finder ShowPathbar -bool true
 condkillall Finder
 
 # echo "Configuring iMovie..."
-# defaults write -app iMovie allowNV -bool true
+# defaults write -app iMovie allowNV -bool true # need to perform after iMovie gets ready..
 
 echo ""
 echo "Configuration Complete!"
