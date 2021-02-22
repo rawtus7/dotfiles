@@ -20,3 +20,12 @@ if (( $+commands[sw_vers] )) && (( $+commands[arch] )); then
 fi
 
 setopt magic_equal_subst
+
+alias h='history'
+alias ll='ls -l'
+alias la='ls -Al'
+alias rm='rm -i'
+alias today='date +%Y/%m/%d'
+alias todayd='date +%Y%m%d'
+alias now='date +%Y/%m/%d-%T'
+alias nowd='date +%Y%m%d%H%M%S'
