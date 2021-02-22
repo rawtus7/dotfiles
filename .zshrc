@@ -21,6 +21,8 @@ fi
 
 setopt magic_equal_subst
 
+export HOMEBREW_BUNDLE_NO_LOCK=true
+
 alias h='history'
 alias ll='ls -l'
 alias la='ls -Al'
