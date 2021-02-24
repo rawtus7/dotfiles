@@ -33,8 +33,8 @@ export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 brew bundle --no-lock
 echo
 
-# mackup restore
-# echo
+mackup restore
+echo
 
 # ./scripts/initialize.sh
 # echo
