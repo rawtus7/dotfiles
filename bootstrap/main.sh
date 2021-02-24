@@ -25,10 +25,13 @@ echo
 ./scripts/deploy.sh
 echo
 
-# TODO: Homebrew
-# ./scripts/homebrew.sh
-# echo
-# TODO: brew bundle
+./scripts/homebrew.sh
+echo
+
+# prioritize ARM Homebrew
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+brew bundle --no-lock
+echo
 
 # mackup restore
 # echo
