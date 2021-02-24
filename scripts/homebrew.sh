@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "homebrew.sh >>>>>"
+echo ">>>>> homebrew.sh >>>>>"
 
 command_prefix=""
 
@@ -22,4 +22,4 @@ if ! command -v /usr/local/bin/brew >/dev/null 2>&1; then
   $command_prefix /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-echo "<<<<< homebrew.sh"
+echo "<<<<< homebrew.sh <<<<<"

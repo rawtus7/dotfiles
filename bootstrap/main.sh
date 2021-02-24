@@ -2,7 +2,7 @@
 
 set -eu
 
-echo "main.sh >>>>>"
+echo ">>>>> main.sh >>>>>"
 
 if ! command -v xcodebuild 1>/dev/null; then
   echo 'Xcode is not installed.'
@@ -39,5 +39,5 @@ echo
 # ./scripts/initialize.sh
 # echo
 
-echo "<<<<< main.sh"
+echo "<<<<< main.sh <<<<<"
 echo "Bootstrapping DONE!"

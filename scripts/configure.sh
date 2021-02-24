@@ -2,7 +2,7 @@
 
 set -e
 
-echo "configure.sh >>>>>"
+echo ">>>>> configure.sh >>>>>"
 
 function condkillall() {
   local -r process="$1"
@@ -70,4 +70,4 @@ echo ""
 echo "Configuration Complete!"
 echo "Please restart Mac to make sure settings are reflected."
 
-echo "<<<<< configure.sh"
+echo "<<<<< configure.sh <<<<<"

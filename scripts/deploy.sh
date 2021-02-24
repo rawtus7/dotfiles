@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "deploy.sh >>>>>"
+echo ">>>>> deploy.sh >>>>>"
 
 DOTPATH="$HOME/dotfiles"
 
@@ -21,4 +21,4 @@ for dotfile in .??*; do
   ln -fvns "$DOTPATH/$dotfile" "$HOME/$dotfile"
 done
 
-echo "<<<<< deploy.sh"
+echo "<<<<< deploy.sh <<<<<"
