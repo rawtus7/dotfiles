@@ -46,7 +46,7 @@ cask "transmit"
 
 # Apple Silicon
 cask "keepassxc" # iOS
-cask "visual-studio-code-insiders" # iOS
+cask "visual-studio-code" # iOS
 cask "vlc" # iOS
 cask "zoom"
 # "docker-preview" needs manual install
@@ -83,7 +83,6 @@ cask "sublime-text"
 cask "thunderbird"
 cask "vagrant"
 cask "virtualbox"
-cask "visual-studio-code"
 cask "vmware-fusion10"
 cask "wireshark"
 cask "xquartz" # Other
