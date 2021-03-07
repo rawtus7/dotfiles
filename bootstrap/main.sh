@@ -4,7 +4,8 @@ set -eu
 
 echo ">>>>> main.sh >>>>>"
 
-if ! command -v xcodebuild 1>/dev/null; then
+# if ! command -v xcodebuild 1>/dev/null; then
+if [ ! -e "/Applications/Xcode.app" ]; then
   echo 'Xcode is not installed.'
   echo 'mas requires Xcode. Please install the latest version of Xcode from App Store.'
   echo 'For more info, see https://github.com/mas-cli/mas.'
